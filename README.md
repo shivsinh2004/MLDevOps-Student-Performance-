@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Performance Prediction using MLflow with Data Drift Monitoring
 
 **Course:** MLOps / Machine Learning Operations  
@@ -318,3 +319,6 @@ python test_app.py
 1. **Drift Detection is Critical:** High baseline accuracy (93.5%) is deceptive if input distributions diverge in production. The F1-score collapsed to 60.3% due to high false positives under shifted study and absence patterns.
 2. **PSI Provides Clear Quantifiable Signals:** Numerical features `study_time` (PSI: 3.05) and `absences` (PSI: 3.68) decisively surpassed the 0.20 drift threshold.
 3. **Automated MLOps Closes the Loop:** Programmatic retraining seamlessly adapted the decision boundaries to the new student reality, restoring the F1-score to 90.0% and logging the full lineage into MLflow.
+=======
+# MLDevOps-Student-Performance-
+>>>>>>> 2f3403c7dacd41e72b46362bc4a81de325a35f3f
